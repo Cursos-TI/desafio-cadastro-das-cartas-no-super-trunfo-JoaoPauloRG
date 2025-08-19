@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
+// Nivel Novato
 
 int main() {
     // Variáveis para Carta 01
