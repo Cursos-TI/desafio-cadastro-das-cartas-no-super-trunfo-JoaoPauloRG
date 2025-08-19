@@ -4,7 +4,7 @@
 
 int main() {
     // Variáveis para Carta 01
-    char estado_01[15]; 
+    char estado_01[10]; 
     char codigo_01[10];
     char nome_cd1[50];
     int pop_01;
@@ -12,7 +12,7 @@ int main() {
     int num_p_turist_01;
 
     // Variáveis para Carta 02
-    char estado_02[15];
+    char estado_02[10];
     char codigo_02[10];
     char nome_cd2[50];
     int pop_02;
@@ -21,7 +21,7 @@ int main() {
 
     // Cadastro Carta 01
     printf("Preencha os Dados da Carta 01:\n");
-    printf("Informe o Estado: \n");
+    printf("Informe o Estado (A - H): \n");
     scanf("%s", estado_01);
     printf("Informe o Codigo (ex: A01): \n");
     scanf(" %s", codigo_01);
@@ -39,8 +39,8 @@ int main() {
 
     // Cadastro Carta 02
     printf("Preencha os Dados da Carta 02:\n");
-    printf("Informe o Estado: \n");
-    scanf(" %s", &estado_02);
+    printf("Informe o Estado (A - H): \n");
+    scanf(" %s", estado_02);
     printf("Informe o Codigo (ex: B03): \n");
     scanf("%s", codigo_02);
     printf("Informe o Nome da Cidade: \n");
